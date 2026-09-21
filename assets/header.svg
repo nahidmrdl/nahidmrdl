@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Nahid — software developer</title>
+  <desc id="desc">Dark blue and purple developer profile banner with a subtle grid and code-inspired accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.52" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#grid)"/>
+  <circle cx="1030" cy="38" r="170" fill="#7c3aed" opacity=".12" filter="url(#glow)"/>
+  <circle cx="112" cy="306" r="155" fill="#0891b2" opacity=".11" filter="url(#glow)"/>
+
+  <g fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M95 113l-45 47 45 47"/>
+    <path d="M169 113l45 47-45 47"/>
+    <path d="M150 91l-36 138" opacity=".58"/>
+  </g>
+
+  <text x="270" y="130" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="1">Nahid</text>
+  <rect x="270" y="153" width="152" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="270" y="205" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="25" letter-spacing=".7">BUILDING USEFUL SOFTWARE, ONE IDEA AT A TIME.</text>
+  <text x="270" y="247" fill="#67e8f9" font-family="Consolas, Menlo, monospace" font-size="19">desktop tools  ·  web apps  ·  AI  ·  automation</text>
+
+  <g transform="translate(1010 228)" fill="none" stroke="#a78bfa" stroke-width="2" opacity=".75">
+    <circle r="36"/>
+    <circle r="21"/>
+    <circle r="6" fill="#22d3ee" stroke="none"/>
+    <path d="M-54 0h18M36 0h18M0-54v18M0 36v18"/>
+  </g>
+  <rect x="1.5" y="1.5" width="1197" height="317" rx="26.5" fill="none" stroke="url(#accent)" stroke-opacity=".45" stroke-width="3"/>
+</svg>
+
