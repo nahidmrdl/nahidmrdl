@@ -16,6 +16,35 @@ I'm a computer science student who enjoys turning ideas into practical software�
 - 🤖 Experimenting with AI-powered APIs and useful automation
 - 🧭 Interested in projects that solve a clear, everyday problem
 
+## Featured projects
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="middle">
+      <a href="https://github.com/nahidmrdl/gflowris">
+        <img src="https://raw.githubusercontent.com/nahidmrdl/gflowris/main/docs/assets/workflow.gif" width="100%" alt="gflowris demo: queue prompts, generate images in Google Flow, and refine cutouts in Cutris" />
+      </a>
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <a href="https://github.com/nahidmrdl/cutris">
+        <img src="https://raw.githubusercontent.com/nahidmrdl/cutris/main/docs/assets/workspace.png" width="100%" alt="The Cutris editor with a transparent gift cutout, image queue, and touch-up controls" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>gflowris</h3>
+      <p>Generate in Google Flow. Finish in Cutris.</p>
+      <p><a href="https://github.com/nahidmrdl/gflowris">Repository</a> &nbsp;|&nbsp; <a href="https://github.com/nahidmrdl/gflowris/releases/latest">Download</a></p>
+    </td>
+    <td valign="top">
+      <h3>cutris</h3>
+      <p>Remove backgrounds. Crop, resize, and refine.</p>
+      <p><a href="https://github.com/nahidmrdl/cutris">Repository</a> &nbsp;|&nbsp; <a href="https://github.com/nahidmrdl/cutris/releases/latest">Download</a></p>
+    </td>
+  </tr>
+</table>
+
 ## Toolkit
 
 <div align="center">
